@@ -75,9 +75,9 @@ export const Home = () => {
                                     </td>
                                     <td className="border p-4 dark:border-dark-5">
                                         <div className='flex justify-around'>
-                                            <Link to={`/detail/${el._id}`} className='p-2 w-16 text-center bg-amber-400 text-green-800 rounded-md'>Detail</Link>
-                                            <Link to={`/edit/${el._id}`} className='p-2 w-16 text-center bg-cyan-700 text-white rounded-md'>Edit</Link>
-                                            <button className='p-2 w-16 text-center bg-red-800 text-white rounded-md' value={el._id} onClick={handleDelete}>Delete</button>
+                                            <Link to={`/detail/${el._id}`} className='p-2 w-16 text-center  bg-amber-400 text-green-800 rounded-md'>Detail</Link>
+                                            <Link to={`/edit/${el._id}`} className='p-2 w-16 text-center  bg-cyan-700 text-white rounded-md'>Edit</Link>
+                                            <button className='p-2 w-16 text-center bg-red-800  text-white rounded-md' value={el._id} onClick={handleDelete}>Delete</button>
                                         </div>
                                     </td>
                                 </tr>

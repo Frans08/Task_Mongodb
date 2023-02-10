@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { Link, useNavigate} from 'react-router-dom'
+import {  useNavigate} from 'react-router-dom'
 
 export const CreateData = () => {
     const[inputProduct, setInputProduct] = useState({
@@ -22,6 +22,7 @@ export const CreateData = () => {
         try {
           const {name, price, stock, description} = inputProduct
           await axios.post('https://taskapi-production-a53e.up.railway.app/api/product', {name, price,stock,description})
+          
           navigate('/')
         } catch (error) {
           console.log(error.message);
