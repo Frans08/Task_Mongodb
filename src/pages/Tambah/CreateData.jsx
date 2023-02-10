@@ -30,7 +30,7 @@ export const CreateData = () => {
       }
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex justify-center items-center min-h-max mt-8'>
         <div className="bg-cyan-100 rounded-lg shadow sm:max-w-md sm:w-full sm:mx-auto sm:overflow-hidden">
         <div className="px-4 py-8 sm:px-10">
           <div className="relative mt-4">
