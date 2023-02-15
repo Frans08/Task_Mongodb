@@ -9,7 +9,7 @@ export const Navigation = () => {
             <div className="flex items-center justify-between h-16">
               <div className="w-full justify-between flex items-center">
                 <a className="flex-shrink-0 text-white" href="/">
-                  <h2>React X Express CRUD</h2>
+                  <h2>Mongodbxexpress</h2>
                 </a>
                 <div className="hidden md:block">
                   <div className="flex items-baseline ml-10 space-x-4">
